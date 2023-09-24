@@ -28,7 +28,7 @@ kotlin {
         }
     }
 
-    val koinVersion = "3.5.0"
+    val koinVersion = "3.3.2"
     val coroutinesVersion = "1.6.4"
     val ktorVersion = "2.2.1"
     sourceSets {

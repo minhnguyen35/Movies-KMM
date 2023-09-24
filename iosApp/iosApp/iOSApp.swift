@@ -4,11 +4,11 @@ import shared
 @main
 struct iOSApp: App {
     init() {
-        HelperKt.doInitKoin()
+        KoinHelperKt.doInitKoin()
     }
 	var body: some Scene {
 		WindowGroup {
-			ContentView()
+			HomeScreen()
 		}
 	}
 }
